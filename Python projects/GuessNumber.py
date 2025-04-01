@@ -20,12 +20,15 @@ guess = -1
 #This while loop will tell the user if their number is too low, high or the actual number. It will repeat until the conditions
 #make the user have an equal number.
 while guess != number:
+    #User input
     guess=int(input("\nEnter your guess:"))
-    
+    #Equal condition
     if guess == number:
         print(f"Yes, the number is {number}!!!")
+    #guess is too high condition
     elif guess>number:
         print("Your guess is too high")
+    #guess is too low condition
     else:
         print("Your guess is too low!")
         
