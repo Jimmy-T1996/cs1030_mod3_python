@@ -14,7 +14,7 @@ number = random.randint(0,100)
 #This print method is the first line of information presented to the user. The user now knows what they will do.
 print("Guess the magic number between 0 and 100")
 
-#The guess is just below the range to not trigger the rest of the code.
+#The value of -1 is just a placeholder until values in the range is added.
 guess = -1
 
 #This while loop will tell the user if their number is too low, high or the actual number. It will repeat until the conditions
